@@ -1,0 +1,24 @@
+# example slider
+- selector: slider1
+  bullets: false
+  captions: true
+  images:
+    - src: /assets/images/parameters/1.jpg
+      alt: Zmumu
+    - data-src: /assets/images/parameters/2.jpg
+      alt: Zee
+    - data-src: /assets/images/parameters/3.jpg
+      alt: Wmunu
+    - src: /assets/images/parameters/4.jpg
+      alt: Wenu
+  settings:
+    height: 400
+    initialHeight:
+    maxHeight:
+    interval:
+    transitionDuration:
+    effect:
+    disableNav:
+    keyboardNav:
+    previousNavSelector:
+    nextNavSelector:
