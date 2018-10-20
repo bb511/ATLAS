@@ -14,7 +14,9 @@
 
 .menu {
   width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
 }
+
 .menu li {
   float: left;
 }
@@ -27,7 +29,6 @@
   padding: 14px 16px;
   text-decoration: none;
 }
-
 .menu li a:hover {
   background-color: #111;
 }
@@ -40,3 +41,4 @@
   overflow: hidden;
   background-color: rgba(0, 0, 0, 0.7);
 }
+
