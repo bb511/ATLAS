@@ -4,6 +4,6 @@ title: Zmumu
 use_math: true
 ---
 
-## $Z\rightarrow\mu^{+}\mu^{-}$
+## $Z \rightarrow \mu^{+} \mu^{-}$
 
 
