@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Wenu
+title: About
 use_math: true
 ---
 

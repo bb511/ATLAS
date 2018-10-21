@@ -4,6 +4,7 @@ title: Zmumu
 use_math: true
 ---
 
-## $Z \rightarrow \mu^{+} \mu^{-}$
+## $Z^0 \rightarrow \mu^{+} \mu^{-}$
+
 
 
