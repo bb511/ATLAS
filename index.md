@@ -1,6 +1,7 @@
 ---
 layout: default
 title: ATLAS
+use_math: true
 ---
 
 
