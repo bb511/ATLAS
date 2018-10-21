@@ -20,6 +20,10 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
     {% include slider_styles.html %}
+
+    {% if page.use_math %}
+      {% include mathjax_support.html %}
+    {% endif %}
   </head>
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
@@ -39,7 +43,7 @@
     <div class="menu">
         <ul>
           <li><a href="{{ "/index.html"  | prepend: site.baseurl }}">Introduction</a></li>
-          <li><a href="{{ "/Zmumu.html"  | prepend: site.baseurl }}">Zmumu</a></li>
+          <li><a href="{{ "/Zmumu.html"  | prepend: site.baseurl }}">$Z\rightarrow\mu^+\mu^-$</a></li>
           <li><a href="{{ "/Zee.html"  | prepend: site.baseurl }}">Zee</a></li>
           <li><a href="{{ "/Wmunu.html"  | prepend: site.baseurl }}">Wmunu</a></li>
           <li><a href="{{ "/Wenu.html"  | prepend: site.baseurl }}">Wenu</a></li>

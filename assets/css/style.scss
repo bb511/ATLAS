@@ -4,15 +4,15 @@
 @import "{{ site.theme }}";
 
 @font-face {
-    font-family: "Babes";
-    src: url("{{ site.baseurl }}/assets/fonts/babes_neue/TTF's/BebasNeue\ Bold") format("truetype");
+    font-family: "Bebas";
+    src: url("{{ site.baseurl }}/assets/fonts/bebas_neue/TTF's/BebasNeue\ Bold.ttf") format("truetype");
 }
 
 .page-header{
 	background-image: url("{{ site.baseurl }}/assets/images/header.jpg");
 }
 .project-name{
-  font-family: "Babes";
+  font-family: "Bebas";
 	color: white;
     	text-shadow: 5px 5px 5px #000000;
   font-size: 100px;
