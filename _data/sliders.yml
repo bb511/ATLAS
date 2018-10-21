@@ -1,3 +1,26 @@
+# Template
+# - selector:
+#   bullets:
+#   captions:
+#   images:
+#     - data-src:
+#       data-src-2x:
+#       src:
+#       title:
+#       alt:
+#       href:
+#   settings:
+#     height:
+#     initialHeight:
+#     maxHeight:
+#     interval:
+#     transitionDuration:
+#     effect:
+#     disableNav:
+#     keyboardNav:
+#     previousNavSelector:
+#     nextNavSelector: 
+
 - selector: slider1
   bullets: false
   captions: true
