@@ -22,13 +22,11 @@
   position:absolute;
   margin-top: -52px;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .menu li {
   float: left;
-  display: inline-block;
-  position: relative;
 }
 
 .menu li a {
@@ -45,10 +43,9 @@
 
 .menu ul {
   list-style-type: none;
-  left: 25%;
   margin: 0;
   padding: 0;
-  position: relative;
+  overflow: hidden;
+  padding-left: 510px;
   overflow: hidden;
 }
-
