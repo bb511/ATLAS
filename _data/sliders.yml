@@ -1,43 +1,5 @@
-# Template
-# - selector:
-#   bullets:
-#   captions:
-#   images:
-#     - data-src:
-#       data-src-2x:
-#       src:
-#       title:
-#       alt:
-#       href:
-#   settings:
-#     height:
-#     initialHeight:
-#     maxHeight:
-#     interval:
-#     transitionDuration:
-#     effect:
-#     disableNav:
-#     keyboardNav:
-#     previousNavSelector:
-#     nextNavSelector: 
 
-- selector: slider1
-  bullets: false
-  captions: true
-  images:
-    - src: /assets/figures/parameters/1.jpg
-      alt: Energy
-    - data-src: /assets/figures/parameters/2.jpg
-      alt: Pseudo-rapidity
-    - data-src: /assets/figures/parameters/3.jpg
-      alt: Phi
-    - src: /assets/figures/parameters/4.jpg
-      alt: Transverse momentum
-  settings:
-    height: 550
-    animationSpeed: 100
-
-
+# ------------------- Wenu Sliders -------------------
 - selector: WenuParameters
   bullets: true
   captions: true
@@ -125,7 +87,7 @@
     width: 400
 
 
-
+# ------------------- Wmunu Sliders -------------------
 - selector: WmunuParameters
   bullets: true
   captions: true
@@ -206,3 +168,23 @@
     effect: "'fade'"
     animationSpeed: 100
     width: 400
+
+# ------------------- Zmumu Sliders -------------------
+
+- selector: ZmumuParameters
+  bullets: true
+  captions: true
+  images:
+    - src: /assets/figures/Zmumu/parameters/energy.jpg
+      alt: Transverse momentum
+    - src: /assets/figures/Zmumu/parameters/eta.jpg
+      alt: Missing Energy
+    - src: /assets/figures/Zmumu/parameters/phi.jpg
+      alt: Delta Phi
+    - src: /assets/figures/Zmumu/parameters/pt.jpg
+      alt: Pseudo-rapidity
+  settings:
+    height: 550
+    effect: "'fade'"
+    animationSpeed: 100
+    width: 500

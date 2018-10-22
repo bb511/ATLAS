@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Wmunu
-use_math: true
 image_sliders:
   - WmunuParameters
   - ConeCutsMunu

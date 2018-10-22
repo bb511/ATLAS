@@ -1,12 +1,14 @@
 ---
 layout: default
 title: Zmumu
+image_sliders:
+  - ZmumuParameters
 use_math: true
 ---
 
 ## $Z\rightarrow\mu^+\mu^-$
 ---
-## Contents
+## Conetents
 
 1. [Theory](#theory)
 2. [Parameter Analysis](#parameter-analysis)
@@ -21,7 +23,12 @@ Theory of this process goes in here.
 ## 2. Parameter Analysis
 
 As a first criteria for the $Z\rightarrow\mu^+\mu^-$ process, we are selecting events in which there are at least two leptons, **_one positive and one negative muon_**. On physical grounds, explained in [Section 1](#theory), only the highest [$p_T$](index.md#variable-names) was selected.
-Below are presented plots of the parameters that go into Equation (1).
+The parameters used in Equation (1) for calculating the invariant mass of the lepton pair are presented in the figure below.
+
+
+{% include slider.html selector="ZmumuParameters" %}
+
+
 
 
 
