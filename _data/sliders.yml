@@ -57,7 +57,7 @@
     width: 500
  
 
-- selector: ConeCuts
+- selector: ConeCutsEnu
   bullets: true
   captions: true
   images:
@@ -102,22 +102,105 @@
     animationSpeed: 100
     width: 500
  
-- selector: BackgroundAnalysis
+- selector: BackgroundAnalysisEnu
   bullets: true
   captions: true
   images:
-    - src: /assets/figures/Wboson/Bkg/2_5.jpg
+    - src: /assets/figures/Wboson/BkgEnu/2_5.jpg
       alt: 2.5 GeV cut
-    - src: /assets/figures/Wboson/Bkg/3.jpg
+    - src: /assets/figures/Wboson/BkgEnu/3.jpg
       alt: 3 GeV cut
-    - src: /assets/figures/Wboson/Bkg/3_5.jpg
+    - src: /assets/figures/Wboson/BkgEnu/3_5.jpg
       alt: 3.5 GeV cut
-    - src: /assets/figures/Wboson/Bkg/4.jpg
+    - src: /assets/figures/Wboson/BkgEnu/4.jpg
       alt: 4 GeV cut
-    - src: /assets/figures/Wboson/Bkg/4_5.jpg
+    - src: /assets/figures/Wboson/BkgEnu/4_5.jpg
       alt: 4.5 GeV cut
-    - src: /assets/figures/Wboson/Bkg/5.jpg
+    - src: /assets/figures/Wboson/BkgEnu/5.jpg
       alt: 5 GeV cut
+  settings:
+    height: 650
+    effect: "'fade'"
+    animationSpeed: 100
+    width: 400
+
+
+
+- selector: WmunuParameters
+  bullets: true
+  captions: true
+  images:
+    - src: /assets/figures/Wboson/pt_2.jpg
+      alt: Transverse momentum
+    - src: /assets/figures/Wboson/etmiss_2.jpg
+      alt: Missing Energy
+    - src: /assets/figures/Wboson/delphi_2.jpg
+      alt: Delta Phi
+    - src: /assets/figures/Wboson/Eta_2.jpg
+      alt: Pseudo-rapidity
+  settings:
+    height: 550
+    effect: "'fade'"
+    animationSpeed: 100
+    width: 500
+ 
+
+- selector: ConeCutsMunu
+  bullets: true
+  captions: true
+  images:
+    - src: /assets/figures/Wboson/etcones_2.jpg
+      alt: Etcones
+    - src: /assets/figures/Wboson/ptcones_2.jpg
+      alt: Ptcones
+  settings:
+    height: 600
+    effect: "'fade'"
+    animationSpeed: 100
+    width: 500
+ 
+
+- selector: MassConesWmunu
+  bullets: true
+  captions: true
+  images:
+    - src: /assets/figures/Wboson/MassMunu/053Gev.png
+      alt: 0.5 GeV cut
+    - src: /assets/figures/Wboson/MassMunu/1Gev.png
+      alt: 1 GeV cut
+    - src: /assets/figures/Wboson/MassMunu/1_5Gev.png
+      alt: 1.5 GeV cut
+    - src: /assets/figures/Wboson/MassMunu/2Gev.png
+      alt: 2 GeV cut
+    - src: /assets/figures/Wboson/MassMunu/2_5Gev.png
+      alt: 2.5 GeV cut
+    - src: /assets/figures/Wboson/MassMunu/3Gev.png
+      alt: 3 GeV cut
+  settings:
+    height: 650
+    effect: "'fade'"
+    animationSpeed: 100
+    width: 500
+ 
+- selector: BackgroundAnalysisMunu
+  bullets: true
+  captions: true
+  images:
+    - src: /assets/figures/Wboson/BkgMunu/0.jpg
+      alt: Shows QCD background estimate
+    - src: /assets/figures/Wboson/BkgMunu/0_5Gev.jpg
+      alt: 0.5 GeV cut
+    - src: /assets/figures/Wboson/BkgMunu/1Gev.jpg
+      alt: 1 GeV cut
+    - src: /assets/figures/Wboson/BkgMunu/1_5Gev.jpg
+      alt: 1.5 GeV cut
+    - src: /assets/figures/Wboson/BkgMunu/2Gev.jpg
+      alt: 2 GeV cut
+    - src: /assets/figures/Wboson/BkgMunu/2_5Gev.jpg
+      alt: 2.5 GeV cut
+    - src: /assets/figures/Wboson/BkgMunu/3Gev.jpg
+      alt: 3 GeV cut
+
   settings:
     height: 650
     effect: "'fade'"

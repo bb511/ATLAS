@@ -3,9 +3,9 @@ layout: default
 title: Wenu
 image_sliders:
   - WenuParameters
-  - ConeCuts
+  - ConeCutsEnu
   - MassConesWenu
-  - BackgroundAnalysis
+  - BackgroundAnalysisEnu
 use_math: true
 ---
 
@@ -19,7 +19,7 @@ use_math: true
 ### Cone cuts
 
 
-{% include slider.html selector="ConeCuts" %}
+{% include slider.html selector="ConeCutsEnu" %}
 
 
 
@@ -32,6 +32,6 @@ use_math: true
 ### Background Analysis
 
 
-{% include slider.html selector="BackgroundAnalysis" %}
+{% include slider.html selector="BackgroundAnalysisEnu" %}
 
 
