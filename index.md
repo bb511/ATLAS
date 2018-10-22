@@ -9,8 +9,43 @@ use_math: true
 
 Here goes the introduction and whatever one might want to add.
 
+### Data Sets and Simulations
+
+A table of used Monte Carlo simulations is available below for reference.
+
+|      Monte Carlo Physics Process     |                           Description                           |
+|:------------------------------------:|:---------------------------------------------------------------:|
+|           $Z\rightarrow ee$          |      $Z^0$ decaying to a positive and a negative electrons      |
+|         $Z\rightarrow \mu\mu$        |         $Z^0$ decaying to a positive and a negative muon        |
+|        $Z\rightarrow \tau\tau$       | $Z^0$ decaying into a positive and negative tau (rarer process) |
+|            Drell-Yan $ee$            |       Drell-Yan electron simulation with $8<m_{ll}<15$ GeV      |
+|            Drell-Yan $ee$            |      Drell-Yan electron simulation with $15<m_{ll}<40$ GeV      |
+|          Drell-Yan $\mu\mu$          |         Drell-Yan muon simulation with $8<m_{ll}<15$ GeV        |
+|          Drell-Yan $\mu\mu$          |        Drell-Yan muon simulation with $15<m_{ll}<40$ GeV        |
+|          $W\rightarrow e\nu$         |                        $b$ veto, no jets                        |
+|          $W\rightarrow e\nu$         |                       $b$ veto, with jets                       |
+|          $W\rightarrow e\nu$         |                       with $b$, with jets                       |
+|         $W\rightarrow \mu\nu$        |                        $b$ veto, no jets                        |
+|         $W\rightarrow \mu\nu$        |                       $b$ veto, with jets                       |
+|         $W\rightarrow \mu\nu$        |                       with $b$, with jets                       |
+|        $W\rightarrow \tau\nu$        |                        $b$ veto, no jets                        |
+|        $W\rightarrow \tau\nu$        |                       $b$ veto, with jets                       |
+|        $W\rightarrow \tau\nu$        |                       with $b$, with jets                       |
+|        $tt\rightarrow leptons$       |                Top quark pair decaying to leptons               |
+| $H\rightarrow ZZ\rightarrow leptons$ |                $Z$ boson pair decaying to leptons               |
+
+Further, a table of the used **real data** sets are presented below.
+
+
+| ATLAS Data Set |                               Description                               |
+|:--------------:|:-----------------------------------------------------------------------:|
+|  Electron data | ATLAS data at 8 TeV filtered to contain at least one electron per event |
+|    Muon data   |   ATLAS data at 8 TeV filtered to contain at least one muon per event   |
+
 
 ### Variable Names
+
+To make it easier to read, a table with all the variables that we refer to in this website is available below. Hyperlinks to this table will be given when one first refers to a variable in the text.
 
 | Variable Name |                                       Physical Quantity                                       | Formula | Measured |
 |:-------------:|:---------------------------------------------------------------------------------------------:|:-------:|:--------:|
