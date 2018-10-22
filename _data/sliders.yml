@@ -35,3 +35,91 @@
       alt: Transverse momentum
   settings:
     height: 550
+    animationSpeed: 100
+
+
+- selector: WenuParameters
+  bullets: true
+  captions: true
+  images:
+    - src: /assets/figures/Wboson/pt_1.jpg
+      alt: Transverse momentum
+    - src: /assets/figures/Wboson/etmiss_1.jpg
+      alt: Missing Energy
+    - src: /assets/figures/Wboson/delphi_1.jpg
+      alt: Delta Phi
+    - src: /assets/figures/Wboson/Eta_1.jpg
+      alt: Pseudo-rapidity
+  settings:
+    height: 550
+    effect: "'fade'"
+    animationSpeed: 100
+    width: 500
+ 
+
+- selector: ConeCuts
+  bullets: true
+  captions: true
+  images:
+    - src: /assets/figures/Wboson/etcones_1.jpg
+      alt: Etcones
+    - src: /assets/figures/Wboson/ptcones_1.jpg
+      alt: Ptcones
+  settings:
+    height: 600
+    effect: "'fade'"
+    animationSpeed: 100
+    width: 500
+ 
+
+- selector: MassConesWenu
+  bullets: true
+  captions: true
+  images:
+    - src: /assets/figures/Wboson/Mass/0_5Gev.png
+      alt: 0.5 GeV cut
+    - src: /assets/figures/Wboson/Mass/1Gev.png
+      alt: 1 GeV cut
+    - src: /assets/figures/Wboson/Mass/1_5Gev.png
+      alt: 1.5 GeV cut
+    - src: /assets/figures/Wboson/Mass/2Gev.png
+      alt: 2 GeV cut
+    - src: /assets/figures/Wboson/Mass/2_5Gev.png
+      alt: 2.5 GeV cut
+    - src: /assets/figures/Wboson/Mass/3Gev.png
+      alt: 3 GeV cut
+    - src: /assets/figures/Wboson/Mass/3_5Gev.png
+      alt: 3.5 GeV cut
+    - src: /assets/figures/Wboson/Mass/4Gev.png
+      alt: 4 GeV cut
+    - src: /assets/figures/Wboson/Mass/4_5Gev.png
+      alt: 4.5 GeV cut
+    - src: /assets/figures/Wboson/Mass/5Gev.png
+      alt: 5 GeV cut
+  settings:
+    height: 650
+    effect: "'fade'"
+    animationSpeed: 100
+    width: 500
+ 
+- selector: BackgroundAnalysis
+  bullets: true
+  captions: true
+  images:
+    - src: /assets/figures/Wboson/Bkg/2_5.jpg
+      alt: 2.5 GeV cut
+    - src: /assets/figures/Wboson/Bkg/3.jpg
+      alt: 3 GeV cut
+    - src: /assets/figures/Wboson/Bkg/3_5.jpg
+      alt: 3.5 GeV cut
+    - src: /assets/figures/Wboson/Bkg/4.jpg
+      alt: 4 GeV cut
+    - src: /assets/figures/Wboson/Bkg/4_5.jpg
+      alt: 4.5 GeV cut
+    - src: /assets/figures/Wboson/Bkg/5.jpg
+      alt: 5 GeV cut
+  settings:
+    height: 650
+    effect: "'fade'"
+    animationSpeed: 100
+    width: 400
