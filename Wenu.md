@@ -28,7 +28,7 @@ use_math: true
 5. [Background Analysis](#5-background-analysis)<br>
 	5.1 [Estimation of Background Shape](#51-estimation-of-background-shape)<br>
 	5.2 [ABCD Method](#52-abcd-method)
-6. [Cross Section Calculation](#6-cross-section-calculation)
+6. [Cross Section](#6-cross-sectionn)
 7. [Summary of Results](#7-summary-of-results)
 
 ---
@@ -105,7 +105,24 @@ use_math: true
 
 ### 5.2 ABCD Method
 
-## 6. Cross Section calculation
+## 6. Cross Section
+
+
+## Uncertainties
+
+
+#### Statistical Uncertainty
+
+
+#### Systematic Uncertainty
+
+#### Luminosity Uncertainty
+
+## Final Value
+Finally, we quote the final value for the cross section obtained in the $W\rightarrow e\mu$ process to be
+\begin{equation}
+\sigma_{We\nu} = 10.96\pm 0.03 \mathrm{(stat)}\pm 0.20 \mathrm{(syst)}\pm 0.02 \mathrm{(lumi)}
+\end{equation}
 
 ## 7. Summary of Results
 ---
