@@ -240,3 +240,16 @@
     height: 600
     effect: "'fade'"
     animationSpeed: 100
+
+- selector: ZmumuXsect
+  bullets: true
+  captions: true
+  images:
+    - src: /assets/figures/Zmumu/xsections/zumau.png
+      alt: Zoomed out plot
+    - src: /assets/figures/Zmumu/xsections/zumin.png
+      alt: Zoomed in plot
+  settings:
+    height: 430
+    effect: "'fade'"
+    animationSpeed: 100
