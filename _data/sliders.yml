@@ -53,7 +53,7 @@
     - src: /assets/figures/Wboson/Eta_1.jpg
       alt: Pseudo-rapidity
   settings:
-    height: 550
+    height: 500
     effect: "'fade'"
     animationSpeed: 100
  

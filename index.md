@@ -5,9 +5,19 @@ use_math: true
 ---
 
 
-## Introduction and welcome to the website!
+## Introduction to the experiment
 
-Here goes the introduction and whatever one might want to add.
+$W^{\pm}$ and $Z^0$ bosons are produced via proton-proton, $pp$, collisions by the ATLAS experiment at the Large Hardron Collidor (LHC), Cern. The 2012 ATLAS run at 8TeV, produced data which is made available for educational purposes by the [ATLAS Open Data project](https://cheatham1.gitbooks.io/openatlasdatatools/content/). The experiment is fundamental in order to verify the electroweak results predicted by the Standard Model. The production cross section of $W^{\pm}$ and $Z^0$ events are measured in this experiment. $W^{\pm}$ and $Z^0$ bosons are detected due to their decay into leptons ($e^{\pm}, \mu^{\pm}$) and neutrinos ($\nu$). These decays form characteristic experimental signatures which enable the measurement of physical parameters[[1]](https://arxiv.org/pdf/hep-ph/0412146.pdf). The aim is to measure the overall production cross section $\sigma$ of this process which can be expressed as, 
+\begin{equation}
+	\sigma = \frac{N - B}{\epsilon \int Ldt}
+\end{equation}
+
+where $N$ number of selected events,
+      $B$: number of background events,
+      $\epsilon$: efficiency of selecting signal events
+      and 
+      $\int Ldt$: integrated luminosity measures the number of $pp$ collisions resulting in the collected data
+
 
 
 ### Variable Names
