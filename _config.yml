@@ -1,3 +1,5 @@
 theme: jekyll-theme-cayman
 markdown: Kramdown
 repository: bb511/ATLAS
+plugins:
+  - jemoji

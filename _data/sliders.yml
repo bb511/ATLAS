@@ -173,18 +173,70 @@
 
 - selector: ZmumuParameters
   bullets: true
-  captions: true
+  captions: false
   images:
     - src: /assets/figures/Zmumu/parameters/energy.jpg
-      alt: Transverse momentum
+      alt: Energy
     - src: /assets/figures/Zmumu/parameters/eta.jpg
-      alt: Missing Energy
-    - src: /assets/figures/Zmumu/parameters/phi.jpg
-      alt: Delta Phi
-    - src: /assets/figures/Zmumu/parameters/pt.jpg
       alt: Pseudo-rapidity
+    - src: /assets/figures/Zmumu/parameters/phi.jpg
+      alt: Azimuthal Angle
+    - src: /assets/figures/Zmumu/parameters/pt.jpg
+      alt: Transverse Momentum
   settings:
     height: 550
     effect: "'fade'"
     animationSpeed: 100
-    width: 500
+
+- selector: ZmumuCones
+  bullets: true
+  captions: false
+  images:
+    - src: /assets/figures/Zmumu/cones/ptcones.jpg
+      alt: Ptcones
+    - src: /assets/figures/Zmumu/cones/etcones.jpg
+      alt: Etcones
+  settings:
+    height: 550
+    effect: "'fade'"
+    animationSpeed: 100
+
+- selector: ZmumuParamCones
+  bullets: true
+  captions: false
+  images:
+    - src: /assets/figures/Zmumu/paramcones/Muon.jpg
+      alt: Muon
+    - src: /assets/figures/Zmumu/paramcones/ttLep.jpg
+      alt: ttLep
+    - src: /assets/figures/Zmumu/paramcones/WmunuB.jpg
+      alt: Azimuthal Angle
+    - src: /assets/figures/Zmumu/paramcones/WmunuBNoJets.jpg
+      alt: Transverse Momentum
+    - src: /assets/figures/Zmumu/paramcones/Zmumu.jpg
+      alt: Transverse Momentum
+    - src: /assets/figures/Zmumu/paramcones/Ztt_all.jpg
+      alt: Transverse Momentum
+  settings:
+    height: 700
+    effect: "'fade'"
+    animationSpeed: 100
+
+- selector: ZmumuMass
+  bullets: true
+  captions: false
+  images:
+    - src: /assets/figures/Zmumu/mass/4GeV.png
+      alt: 4Gev
+    - src: /assets/figures/Zmumu/mass/5GeV.png
+      alt: 5GeV
+    - src: /assets/figures/Zmumu/mass/6GeV.png
+      alt: 6GeV
+    - src: /assets/figures/Zmumu/mass/7GeV.png
+      alt: 7GeV
+    - src: /assets/figures/Zmumu/mass/8GeV.png
+      alt: 8GeV
+  settings:
+    height: 600
+    effect: "'fade'"
+    animationSpeed: 100
