@@ -1,5 +1,6 @@
-
-# ------------------- Wenu Sliders -------------------
+# -----------------------------------------------------------------------------------------------
+#                   W -> enu
+#-----------------------------------------------------------------------------------------------
 - selector: WenuParameters
   bullets: true
   captions: true
@@ -13,10 +14,9 @@
     - src: /assets/figures/Wboson/Eta_1.jpg
       alt: Pseudo-rapidity
   settings:
-    height: 550
+    height: 500
     effect: "'fade'"
     animationSpeed: 100
-    width: 500
  
 
 - selector: ConeCutsEnu
@@ -28,10 +28,9 @@
     - src: /assets/figures/Wboson/ptcones_1.jpg
       alt: Ptcones
   settings:
-    height: 600
+    height: 500
     effect: "'fade'"
     animationSpeed: 100
-    width: 500
  
 
 - selector: MassConesWenu
@@ -86,8 +85,9 @@
     animationSpeed: 100
     width: 400
 
-
-# ------------------- Wmunu Sliders -------------------
+# -----------------------------------------------------------------------------------------------
+#                   W -> munu
+#-----------------------------------------------------------------------------------------------
 - selector: WmunuParameters
   bullets: true
   captions: true
@@ -116,10 +116,10 @@
     - src: /assets/figures/Wboson/ptcones_2.jpg
       alt: Ptcones
   settings:
-    height: 600
+    height: 500
     effect: "'fade'"
     animationSpeed: 100
-    width: 500
+    width: 600
  
 
 - selector: MassConesWmunu
