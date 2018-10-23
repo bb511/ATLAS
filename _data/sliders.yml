@@ -1,45 +1,6 @@
-# Template
-# - selector:
-#   bullets:
-#   captions:
-#   images:
-#     - data-src:
-#       data-src-2x:
-#       src:
-#       title:
-#       alt:
-#       href:
-#   settings:
-#     height:
-#     initialHeight:
-#     maxHeight:
-#     interval:
-#     transitionDuration:
-#     effect:
-#     disableNav:
-#     keyboardNav:
-#     previousNavSelector:
-#     nextNavSelector: 
-
-- selector: slider1
-  bullets: false
-  captions: true
-  images:
-    - src: /assets/figures/parameters/1.jpg
-      alt: Energy
-    - data-src: /assets/figures/parameters/2.jpg
-      alt: Pseudo-rapidity
-    - data-src: /assets/figures/parameters/3.jpg
-      alt: Phi
-    - src: /assets/figures/parameters/4.jpg
-      alt: Transverse momentum
-  settings:
-    height: 550
-    animationSpeed: 100
 # -----------------------------------------------------------------------------------------------
 #                   W -> enu
 #-----------------------------------------------------------------------------------------------
-
 - selector: WenuParameters
   bullets: true
   captions: true
@@ -125,10 +86,8 @@
     width: 400
 
 # -----------------------------------------------------------------------------------------------
-#                   W -> enu
+#                   W -> munu
 #-----------------------------------------------------------------------------------------------
-
-
 - selector: WmunuParameters
   bullets: true
   captions: true
@@ -209,3 +168,88 @@
     effect: "'fade'"
     animationSpeed: 100
     width: 400
+
+# ------------------- Zmumu Sliders -------------------
+
+- selector: ZmumuParameters
+  bullets: true
+  captions: false
+  images:
+    - src: /assets/figures/Zmumu/parameters/energy.jpg
+      alt: Energy
+    - src: /assets/figures/Zmumu/parameters/eta.jpg
+      alt: Pseudo-rapidity
+    - src: /assets/figures/Zmumu/parameters/phi.jpg
+      alt: Azimuthal Angle
+    - src: /assets/figures/Zmumu/parameters/pt.jpg
+      alt: Transverse Momentum
+  settings:
+    height: 550
+    effect: "'fade'"
+    animationSpeed: 100
+
+- selector: ZmumuCones
+  bullets: true
+  captions: false
+  images:
+    - src: /assets/figures/Zmumu/cones/ptcones.jpg
+      alt: Ptcones
+    - src: /assets/figures/Zmumu/cones/etcones.jpg
+      alt: Etcones
+  settings:
+    height: 550
+    effect: "'fade'"
+    animationSpeed: 100
+
+- selector: ZmumuParamCones
+  bullets: true
+  captions: false
+  images:
+    - src: /assets/figures/Zmumu/paramcones/Muon.jpg
+      alt: Muon
+    - src: /assets/figures/Zmumu/paramcones/ttLep.jpg
+      alt: ttLep
+    - src: /assets/figures/Zmumu/paramcones/WmunuB.jpg
+      alt: Azimuthal Angle
+    - src: /assets/figures/Zmumu/paramcones/WmunuBNoJets.jpg
+      alt: Transverse Momentum
+    - src: /assets/figures/Zmumu/paramcones/Zmumu.jpg
+      alt: Transverse Momentum
+    - src: /assets/figures/Zmumu/paramcones/Ztt_all.jpg
+      alt: Transverse Momentum
+  settings:
+    height: 700
+    effect: "'fade'"
+    animationSpeed: 100
+
+- selector: ZmumuMass
+  bullets: true
+  captions: false
+  images:
+    - src: /assets/figures/Zmumu/mass/4GeV.png
+      alt: 4Gev
+    - src: /assets/figures/Zmumu/mass/5GeV.png
+      alt: 5GeV
+    - src: /assets/figures/Zmumu/mass/6GeV.png
+      alt: 6GeV
+    - src: /assets/figures/Zmumu/mass/7GeV.png
+      alt: 7GeV
+    - src: /assets/figures/Zmumu/mass/8GeV.png
+      alt: 8GeV
+  settings:
+    height: 600
+    effect: "'fade'"
+    animationSpeed: 100
+
+- selector: ZmumuXsect
+  bullets: true
+  captions: true
+  images:
+    - src: /assets/figures/Zmumu/xsections/zumau.png
+      alt: Zoomed out plot
+    - src: /assets/figures/Zmumu/xsections/zumin.png
+      alt: Zoomed in plot
+  settings:
+    height: 430
+    effect: "'fade'"
+    animationSpeed: 100
