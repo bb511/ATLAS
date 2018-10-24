@@ -5,9 +5,23 @@ use_math: true
 ---
 
 
-## Introduction to the experiment
+## Introduction to the Experiment
 
-$W^{\pm}$ and $Z^0$ bosons are produced via proton-proton, $pp$, collisions by the ATLAS experiment at the Large Hardron Collidor (LHC), Cern. The 2012 ATLAS run at 8TeV, produced data which is made available for educational purposes by the [ATLAS Open Data project](https://cheatham1.gitbooks.io/openatlasdatatools/content/). The experiment is fundamental in order to verify the electroweak results predicted by the Standard Model. The production cross section of $W^{\pm}$ and $Z^0$ events are measured in this experiment. $W^{\pm}$ and $Z^0$ bosons are detected due to their decay into leptons ($e^{\pm}, \mu^{\pm}$) and neutrinos ($\nu$). These decays form characteristic experimental signatures which enable the measurement of physical parameters[[1]](https://arxiv.org/pdf/hep-ph/0412146.pdf). The aim is to measure the overall production cross section $\sigma$ of this process which can be expressed as, 
+$W^{\pm}$ and $Z^0$ bosons are produced via proton-proton, $pp$, collisions by the ATLAS experiment at the Large Hardron Collidor (LHC), Cern. The 2012 ATLAS run at $\sqrt{s} = 8$ TeV, produced data which is made available for educational purposes by the [ATLAS Open Data project](https://cheatham1.gitbooks.io/openatlasdatatools/content/). This kind of experiment is fundamental in order to verify the electroweak results predicted by the Standard Model. 
+
+The production cross section of $W^{\pm}$ and $Z^0$ events are measured in this experiment. $W^{\pm}$ and $Z^0$ bosons are detected due to their decay into leptons ($e^{\pm}, \mu^{\pm}$) and neutrinos ($\nu$). These decays form characteristic experimental signatures which enable the measurement of physical parameters[[1]](https://arxiv.org/pdf/hep-ph/0412146.pdf). The aim is to measure the overall production cross section $\sigma$ of the $W^{\pm}$ and $Z^0$ bosons. 
+
+
+## Detector Characteristics
+
+
+## Invariant Mass
+
+
+## Cross Sections
+
+The cross section of a specific process (e.g. $Z\rightarrow \mu\mu$) was calculated using the formula
+
 \begin{equation}
 	\sigma = \frac{N - B}{\epsilon \int Ldt}
 \end{equation}
@@ -18,6 +32,10 @@ where $N$ number of selected events,
       and 
       $\int Ldt$: integrated luminosity measures the number of $pp$ collisions resulting in the collected data
 
+## Uncertainties
+
+---
+## Appendix
 
 ### Data Sets and Simulations
 
