@@ -103,11 +103,11 @@
   bullets: true
   captions: true
   images:
-    - src: /assets/figures/Wboson/ABCD/Wenu1.png
+    - src: /assets/figures/Wboson/ABCD/Wenu1.PNG
       alt: Electron Data
-    - src: /assets/figures/Wboson/ABCD/Wenu2.png
+    - src: /assets/figures/Wboson/ABCD/Wenu2.PNG
       alt: Background Monte Carlo
-    - src: /assets/figures/Wboson/ABCD/Wenu3.png
+    - src: /assets/figures/Wboson/ABCD/Wenu3.PNG
       alt: Signal Monte Carlo
   settings:
     height: "'auto'"
@@ -218,11 +218,11 @@
   bullets: true
   captions: true
   images:
-    - src: /assets/figures/Wboson/ABCD/Wmunu1.png
-      alt: Electron Data
-    - src: /assets/figures/Wboson/ABCD/Wmunu2.png
+    - src: /assets/figures/Wboson/ABCD/Wmunu1.PNG
+      alt: Muon Data
+    - src: /assets/figures/Wboson/ABCD/Wmunu2.PNG
       alt: Background Monte Carlo
-    - src: /assets/figures/Wboson/ABCD/Wmunu3.png
+    - src: /assets/figures/Wboson/ABCD/Wmunu3.PNG
       alt: Signal Monte Carlo
   settings:
     height: "'auto'"

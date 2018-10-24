@@ -36,10 +36,17 @@ use_math: true
 
 ## 1. Theory
 
+
+W bosons decay into a fermion and neutrino pair. They are charged bosons and are amongst the 
+heaviest particles known today. Due to the numerours interactions 
+occuring per beam collision, large number of W bosons are generated due to decays from second 
+generation strange and charm quarks. In the ATLAS experiment, $q\bar{q}$ collisions result in W boson production. Measurements of the W production cross-section is fundamental to verify the electroweak results of the standard model.
+
+![W decay](/assets/figures/Wboson/Wdecay.png)
+
+
+W bosons decays are relatively more difficult to isolate as the neutrinos they decay into cannot be directly detected. The imbalance in the sum of the net $p_{T}$ is termed as the missing energy $E_T^{miss}$. Conservation of momentum implies that the lepton must travel in the opposite direction to the neutrino. However, numerous QCD process also result in the production of hardon showers with leptons. Thus only pure events would have the condition that $\Delta\phi$ is $\pm \pi$. The most significant process which also produces leptons with neutrinos are gluon-gluon interactions resulting in a hadron shower the $b\bar{b}$. $b\bar{b}$ further decays into W bosons resulting in $l\nu$.
 Points to cover:<br>
-	1. Why delphi is max<br>
-	2. QCD contribution<br>
-	3. Overshoot-undershoot discuss in summary
 
 
 [[back to top]](#contents)
@@ -268,7 +275,7 @@ The final value of the cross section was also estimated by using the ABCD method
 
 
 The cross-section of the process $W^{\pm} \rightarrow \mu^{\pm}\nu$ was calculated by accounting for all the simulated background sources with the estimated QCD background from the data. Two methods were employed to attain estimates on the QCD background contribution as detailed in [Section 5](#5-background-analysis).  
-The [two cross-sections values obtained](#6-cross-section-calculation) by the two methods are consistent ~~OR not-consistent~~ with each other. The analysis gives a well-versed overview of background estimation and cross-section calculation in particle physics collisions. The experiment was followed by the [[$W^{\pm} \rightarrow e^{\pm}\nu$]](Wenu.md#Contents) analysis.
+The [two cross-sections values obtained](#6-cross-section-calculation) by the two methods are not-consistent with each other. The analysis gives a well-versed overview of background estimation and cross-section calculation in particle physics collisions. The experiment was followed by the [[$W^{\pm} \rightarrow e^{\pm}\nu$]](Wenu.md#Contents) analysis.
 
 [[back to top]](#contents)
 

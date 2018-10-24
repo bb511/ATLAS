@@ -38,6 +38,16 @@ use_math: true
 ## 1. Theory
 
 
+W bosons decay into a fermion and neutrino pair. They are charged bosons and are amongst the 
+heaviest particles known today. Due to the numerours interactions 
+occuring per beam collision, large number of W bosons are generated due to decays from second 
+generation strange and charm quarks. In the ATLAS experiment, $q\bar{q}$ collisions result in W boson production. Measurements of the W production cross-section is fundamental to verify the electroweak results of the standard model.
+
+![W decay](/assets/figures/Wboson/Wdecay.png)
+
+
+W bosons decays are relatively more difficult to isolate as the neutrinos they decay into cannot be directly detected. The imbalance in the sum of the net $p_{T}$ is termed as the missing energy $E_T^{miss}$. Conservation of momentum implies that the lepton must travel in the opposite direction to the neutrino. However, numerous QCD process also result in the production of hardon showers with leptons. Thus only pure events would have the condition that $\Delta\phi$ is $\pm \pi$. The most significant process which also produces leptons with neutrinos are gluon-gluon interactions resulting in a hadron shower the $b\bar{b}$. $b\bar{b}$ further decays into W bosons resulting in $l\nu$.
+
 [[back to top]](#contents)
 
 ## 2. Parameter Analysis
@@ -48,8 +58,8 @@ were analysed to apply cuts on the 'Electron Data' set.
 As shown in [Slider 4.1](#slider-41), $\eta$ showed a significant dip in the range between $ 
 \approx 1.2 - 1.7$. A more detailed analysis of this region has been covered in [Section 6](
 #6-cross-section-calculation) and it's influence on the calculated cross-section has been 
-accounted for as a systematic uncertainty. $p_{T}$ showed a jump at $\approx -- GeV$, hence 
-only events with $p_{T}> -- GeV$ were selected. Similarly, the $E_{T}^{miss}$ parameter was 
+accounted for as a systematic uncertainty. $p_{T}$ showed a jump at $\approx 15 GeV$, hence 
+only events with $p_{T}> 15 GeV$ were selected. Similarly, the $E_{T}^{miss}$ parameter was 
 chosen to be greater than 30.0 GeV to minimize background contribution at lower values. 
 Finally, as detailed in [[Theory for $W^{\pm} \rightarrow \mu^{\pm}\nu$]](Wmunu.md#1-theory)
 , $|\Delta\phi|$ was chosen to be maximum. The summary of the cuts on all the parrameters is
@@ -251,7 +261,7 @@ The final value of the cross section was also estimated by using the ABCD method
 
 
 The cross-section of the process $W^{\pm} \rightarrow e^{\pm}\nu$ was calculated by accounting for all the simulated background sources with the estimated QCD background from the data. Two methods were employed to attain estimates on the QCD background contribution as detailed in [Section 5](#5-background-analysis).  
-The [two cross-sections values obtained](#6-cross-section) by the two methods are consistent ~~OR not-consistent~~ with each other. 
+The [two cross-sections values obtained](#6-cross-section) by the two methods are not-consistent with each other. 
 
 [[back to top]](#contents)
 
