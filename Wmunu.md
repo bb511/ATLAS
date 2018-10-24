@@ -19,7 +19,7 @@ use_math: true
 
 <center> <h1> $W^{\pm} \rightarrow \mu^{\pm}\nu$ </h1> </center>
 
-
+---
 ## Contents:
 1. [Theory](#1-theory)
 2. [Parameter Analysis](#2-parameter-analysis)

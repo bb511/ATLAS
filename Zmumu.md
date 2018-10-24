@@ -10,7 +10,8 @@ image_sliders:
 use_math: true
 ---
 
-## $Z\rightarrow\mu^+\mu^-$
+<center> <h1>  $Z\rightarrow\mu^+\mu^-$ </h1> </center>
+
 ---
 ## Contents
 
@@ -20,30 +21,31 @@ use_math: true
 4. [Mass Distribution](#4-mass-distribution)
 5. [Cross Section](#5-cross-section)
 	* [Uncertainties](#uncertainties)
+	* [Final Value](#final-value)
 6. [Mass Resonance Fit](#6-mass-resonance-fit)
 
 ---
 
 ## 1. Theory
 
-The most easily indetified deacay mode of the $Z$ boson is to a pair of charged leptons. This is written as $Z\rightarrow l^+l^-$ where $l$ denotes a particular lepton flavour ($l = e, \mu, \tau$). A feynman diagram representing this process is available below
+The most easily indetified deacay mode of the $Z$ boson is to a pair of charged leptons. This is written as $Z\rightarrow l^+l^-$ where $l$ denotes a particular lepton flavour ($l = e, \mu, \tau$). A Feynman diagram is shown in Figure 1.
 
 ![Z decay](/assets/figures/feynman/zdecay.png)
 
 #### Figure 1: The Feynman diagrams for the decay processe $Z\rightarrow l^+l^-$. This is only the most simple diagram that describes the $Z\rightarrow l^+l^-$ process.
 
-However, this is not the most probable decay process a Z boson can go through. A breakdown of what the $Z$ can decay to is given below
-1. In 10% of the Z-decays, charged lepton-antilepton pairs are produced. The three possible charged lepton pair types are electron-positron, muon-antimuon, and tau-antitau pairs. Each pair is approximately equally probable.
+However, this is not the most probable decay process a $Z$ boson can go through. A breakdown of what the $Z$ can decay to is given below
+1. In 10% of the $Z$-decays, charged lepton-antilepton pairs are produced. The three possible charged lepton pair types are electron-positron, muon-antimuon, and tau-antitau pairs. Each pair is approximately equally probable.
 2. The Z boson decays in 20% of the cases into a neutrino-antineutrino pair. Our detector is not capable of detecting neutrinos since they almost don't interact with anything (no electric charge). The neutrinos are therefore invisible to us and the only way we can “see” them is when we measure that there is some energy or transverse momentum missing after the collision (since we know that both transverse momentum and energy should be conserved in the collision).
-3. In 70% of Z decays, a quark-antiquark pair is produced. These appear as particle showers called “jets“ in the detector. Quarks have a property we call "colour", and each quark comes in 3 colours.
+3. In 70% of $Z$ decays, a quark-antiquark pair is produced. These appear as particle showers called “jets“ in the detector. Quarks have a property we call "colour", and each quark comes in 3 colours.
 
 Furthermore, there are multiple other processes that decay into leptons with similar characteristics as the $Z$ decay products. A list of some of them, which could be simulated and thus accurately removed, are available [here](index.md#data-sets-and-simulations).
 
-Another important contribution to the background is given by [QCD processes](https://arxiv.org/abs/hep-ph/0111420). These are in nature very hard to simulate and thus no Monte Carlo simulation is available.
+Another important contribution to the background is given by [QCD processes](https://arxiv.org/abs/hep-ph/0111420). These are intrinsically very hard to simulate and thus no Monte Carlo simulation is available.
 
-In this part of the experiment we tried to apply cuts on various parameters of the decay muons to refine our measurements. The ideal is to obtain a set of muons which are only from the decay of the $Z^0$. Obviously, that is not achievable and backgrounds still remain in the data. However, in the Z boson case, these backgrounds are insignificant as they do not skew the invariant mass distribution of the lepton pair in a meaningful way.
+In this part of the experiment we tried to apply cuts on various parameters of the decay muons to refine our measurements. The ideal is to obtain a set of muons which are only from the decay of the $Z^0$. Obviously, that is not achievable and backgrounds still remain in the data. However, in the $Z$ boson case, these backgrounds are insignificant as they do not skew the invariant mass distribution of the lepton pair in a meaningful way.
 
-What follows is our attempts to refine the data such that we get as close as we can to the aforementioned ideal.
+What follows is our attempts to refine the data such that we get as close as we can to the previoulsy mentioned ideal.
 
 
 ## 2. Parameter Analysis
@@ -100,15 +102,16 @@ A final estimate of the **systematic uncertainty** on the calculated cross-secti
 #### Luminosity Uncertainty
 Finally, the uncertainty on the luminosity was taken to be **0.02 nb**.
 
-## Final Value
+### Final Value
 Finally, we quote the final value for the cross section obtained in the $Z\rightarrow\mu\mu$ process to be
 \begin{equation}
 \sigma_{Z\mu\mu} = 1.294\pm 0.002 \mathrm{(stat)}\pm 0.015 \mathrm{(syst)}\pm 0.020 \mathrm{(lumi)}
 \end{equation}
 
+---
 ## 6. Mass Resonance Fit
 
-The invariant mass distribution of the $Z\rightarrow\mu\mu$ process was fitted. 
+The invariant mass distribution of the $Z\rightarrow\mu\mu$ decay was fitted using a convolution between a Brei-Wigner Distribution and a Gaussian. 
 
 ### Fitting Process
 **The Relativistic Breit Wigner Distribution** has the form:
@@ -126,7 +129,7 @@ where $M$ is the mass of the resonance, $\Gamma$ is the resonance width (or deca
 
 Mathematica was used to fit the convolution to the data. A figure of the fitted data is available below.
 
-![Fitted Data](/assets/figures/Zmumu/fitted/fitted.png)
+![Fitted Data](assets/figures/Zmumu/fitting/zmumufit.PNG)
 
 This fit has a reduced $\chi^2 = 5.89$ with a probability of obtaining this value of $P=1.54\times 10^{-16}$. Table of the fitted parameters:
 
