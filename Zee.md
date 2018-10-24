@@ -39,6 +39,6 @@ use_math: true
 ## Final Value
 Finally, we quote the final value for the cross section obtained in the $Z\rightarrow\mu\mu$ process to be
 \begin{equation}
-\sigma_{Z\mu\mu} = 1.20\pm 0.01 \mathrm{(stat)}\pm 0.07 \mathrm{(syst)}\pm 0.02 \mathrm{(lumi)}
+\sigma_{Z\mu\mu} = 1.20\pm 0.01 \mathrm{(stat)}\pm 0.12 \mathrm{(syst)}\pm 0.02 \mathrm{(lumi)}
 \end{equation}
 

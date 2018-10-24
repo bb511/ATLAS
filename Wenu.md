@@ -121,7 +121,7 @@ use_math: true
 ## Final Value
 Finally, we quote the final value for the cross section obtained in the $W\rightarrow e\mu$ process to be
 \begin{equation}
-\sigma_{We\nu} = 10.96\pm 0.03 \mathrm{(stat)}\pm 0.20 \mathrm{(syst)}\pm 0.02 \mathrm{(lumi)}
+\sigma_{We\nu} = 10.98\pm 0.03 \mathrm{(stat)}\pm 0.23 \mathrm{(syst)}\pm 0.02 \mathrm{(lumi)}
 \end{equation}
 
 ## 7. Summary of Results

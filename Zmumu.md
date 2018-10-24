@@ -83,7 +83,7 @@ Finally, the uncertainty on the luminosity was taken to be **0.02 nb**.
 ## Final Value
 Finally, we quote the final value for the cross section obtained in the $Z\rightarrow\mu\mu$ process to be
 \begin{equation}
-\sigma_{Z\mu\mu} = 1.294\pm 0.002 \mathrm{(stat)}\pm 0.0001 \mathrm{(syst)}\pm 0.02 \mathrm{(lumi)}
+\sigma_{Z\mu\mu} = 1.294\pm 0.002 \mathrm{(stat)}\pm 0.015 \mathrm{(syst)}\pm 0.020 \mathrm{(lumi)}
 \end{equation}
 
 ## 6. Mass Resonance Fit
