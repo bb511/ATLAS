@@ -113,7 +113,7 @@
   images:
     - src: /assets/figures/Wboson/etcones_2.jpg
       alt: Etcones
-    - src: /assets/figures/Wboson/ptcones_2.jpg
+    - src: /assets/figures/Wboson/ptCones_2.jpg
       alt: Ptcones
   settings:
     height: 500
@@ -126,17 +126,17 @@
   bullets: true
   captions: true
   images:
-    - src: /assets/figures/Wboson/MassMunu/053Gev.png
+    - src: /assets/figures/Wboson/MassMunu/053GeV.png
       alt: 0.5 GeV cut
-    - src: /assets/figures/Wboson/MassMunu/1Gev.png
+    - src: /assets/figures/Wboson/MassMunu/1GeV.png
       alt: 1 GeV cut
-    - src: /assets/figures/Wboson/MassMunu/1_5Gev.png
+    - src: /assets/figures/Wboson/MassMunu/1_5GeV.png
       alt: 1.5 GeV cut
-    - src: /assets/figures/Wboson/MassMunu/2Gev.png
+    - src: /assets/figures/Wboson/MassMunu/2GeV.png
       alt: 2 GeV cut
-    - src: /assets/figures/Wboson/MassMunu/2_5Gev.png
+    - src: /assets/figures/Wboson/MassMunu/2_5GeV.png
       alt: 2.5 GeV cut
-    - src: /assets/figures/Wboson/MassMunu/3Gev.png
+    - src: /assets/figures/Wboson/MassMunu/3GeV.png
       alt: 3 GeV cut
   settings:
     height: 650
@@ -150,17 +150,17 @@
   images:
     - src: /assets/figures/Wboson/BkgMunu/0.jpg
       alt: Shows QCD background estimate
-    - src: /assets/figures/Wboson/BkgMunu/0_5Gev.jpg
+    - src: /assets/figures/Wboson/BkgMunu/0_5GeV.jpg
       alt: 0.5 GeV cut
-    - src: /assets/figures/Wboson/BkgMunu/1Gev.jpg
+    - src: /assets/figures/Wboson/BkgMunu/1GeV.jpg
       alt: 1 GeV cut
-    - src: /assets/figures/Wboson/BkgMunu/1_5Gev.jpg
+    - src: /assets/figures/Wboson/BkgMunu/1_5GeV.jpg
       alt: 1.5 GeV cut
-    - src: /assets/figures/Wboson/BkgMunu/2Gev.jpg
+    - src: /assets/figures/Wboson/BkgMunu/2GeV.jpg
       alt: 2 GeV cut
-    - src: /assets/figures/Wboson/BkgMunu/2_5Gev.jpg
+    - src: /assets/figures/Wboson/BkgMunu/2_5GeV.jpg
       alt: 2.5 GeV cut
-    - src: /assets/figures/Wboson/BkgMunu/3Gev.jpg
+    - src: /assets/figures/Wboson/BkgMunu/3GeV.jpg
       alt: 3 GeV cut
 
   settings:
