@@ -85,6 +85,19 @@
     animationSpeed: 100
     width: 400
 
+- selector: WenuXsect
+  bullets: true
+  captions: true
+  images:
+    - src: /assets/figures/Wboson/xsectEnu/zumau.png
+      alt: Zoomed out
+    - src: /assets/figures/Wboson/xsectEnu/zumin.png
+      alt: Zoomed in
+  settings:
+    height: "'auto'"
+    effect: "'fade'"
+    animationSpeed: 100
+    width: 400
  
 - selector: ABCDenu
   bullets: true
@@ -187,7 +200,19 @@
     animationSpeed: 100
     width: 400
 
-
+- selector: WmunuXsect
+  bullets: true
+  captions: true
+  images:
+    - src: /assets/figures/Wboson/xsectMunu/zumau.png
+      alt: Zoomed out
+    - src: /assets/figures/Wboson/xsectMunu/zumin.png
+      alt: Zoomed in
+  settings:
+    height: "'auto'"
+    effect: "'fade'"
+    animationSpeed: 100
+    width: 400
  
 - selector: ABCDmunu
   bullets: true

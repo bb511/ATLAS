@@ -46,6 +46,8 @@ In this part of the experiment we tried to apply cuts on various parameters of t
 
 What follows is our attempts to refine the data such that we get as close as we can to the previously mentioned ideal.
 
+[[back to top]](#contents)
+
 ## 2. Parameter Analysis
 
 As per the $Z\rightarrow\mu^{-}\mu^{+}$ case, the initial criteria for the $Z\rightarrow e^+e^-$ process is the existence of at least **_two leptons with opposite charges_**. On physical grounds, explained in [Section 1](#1-theory), only the highest [$p_T$](index.md#variable-names) was selected.
@@ -55,6 +57,8 @@ The parameters involved in the [invariant mass calculation](index.md#invariant-m
 
 Again, cuts on $\eta$ and $\phi$ do not present much interest. However, in the case of electron decay, cuts were taken on [$p_T$](index.md#bariable-names) and [$E$](index.md#bariable-names). Based on the plots from Slider 1, we decided to cut at the points where **$p_T > 20$ GeV and $E>$ 40 GeV**, since this is where the signal dominates.
 
+[[back to top]](#contents)
+
 ## 3. Cone Cuts
 
 After applying the cuts detailed in the previous section, the [$P_T^\mathrm{cone}$](index.md#variable-names) and the [$E_T^\mathrm{cone}$](index.md#variable-names) of the filtered electrons were plotted. These plots are available in the slider below.
@@ -62,6 +66,8 @@ After applying the cuts detailed in the previous section, the [$P_T^\mathrm{cone
 {% include slider.html selector="ZeeCones" %}
 
 Considering the above figures, we decided to refine our electron selection process by adding cuts on the $P_T^\mathrm{cone}$ and $E_T^\mathrm{cone}$ parameters. Thus, only electrons that have **$P_T^\mathrm{cone}<$ 5 GeV and $E_T^\mathrm{cone}<$ 5 GeV** were allowed.
+
+[[back to top]](#contents)
 
 ## 4. Mass Distribution
 
@@ -71,7 +77,11 @@ The electrons that pass all the selection cuts detailed in [Section 2](#2-parame
 
 Again, there is no significant difference between the plots in the above slider. The cross section values obtained from each of these were used in estimating the systematic uncertainty on the final cross section value.
 
+[[back to top]](#contents)
+
 ## 5. Cross Section
+
+All the analysis is done in mathematica notebooks available for download [here](downloads.md).
 
 The cross section for each of the five invariant mass distributions was calculated using the method detailed [here](index.md#cross-sections). A plot of the five cross section values is available below.
 
@@ -79,6 +89,8 @@ The cross section for each of the five invariant mass distributions was calculat
 
 At the **5 GeV cone cut**, we obtain a value of **$\sigma_{Zee} = 1.20$ nb** (nanobarns).
 In the next sections we will discuss the uncertainty on this value, i.e. at a **6 GeV cone cut**.
+
+[[back to top]](#contents)
 
 ## Uncertainties
 
@@ -104,6 +116,8 @@ Finally, we quote the final value for the cross section obtained in the $Z\right
 \sigma_{Zee} = 1.20\pm 0.01 \mathrm{(stat)}\pm 0.12 \mathrm{(syst)}\pm 0.02 \mathrm{(lumi)}
 \end{equation}
 
+[[back to top]](#contents)
+
 ## 6. Mass Resonance Fit
 
 The invariant mass distribution of the $Z\rightarrow ee$ process was fitted. A detailed explanation of the fitting process can be found [here](Zmumu.md#fitting-process).
@@ -116,10 +130,11 @@ Mathematica was used to fit the convolution to the data. A figure of the fitted 
 
 This fit has a reduced $\chi^2 = 5.89$ with a probability of obtaining this value of $P=1.54\times 10^{-16}$. Table of the fitted parameters:
 
-|           | Estimate | Standard Error | t-Statistic |     P-Value    |
-|:---------:|:--------:|:--------------:|:-----------:|:--------------:|
-| $\lambda$ |  271635. |     1566.49    |   173.404   | 4.92122*10^-40 |
-|  $\sigma$ |  0.85068 |    0.104545    |   8.13697   |  1.72187*10^-8 |
-|    $M$    |  90.7495 |    0.015869    |   5718.66   | 5.50204*10^-78 |
-|  $\Gamma$ |  5.8301  |    0.107572    |   54.1973   | 1.90166*10^-27 |
+|           | Estimate | Standard Error |
+|:---------:|:--------:|:--------------:|
+| $\lambda$ |  141127. |     2834.57    |
+|  $\sigma$ |  1.4056  |    0.271976    |
+|    $M$    |  90.047  |    0.0502856   |
+|  $\Gamma$ |  5.68005 |     0.42243    |
 
+[[back to top]](#contents)

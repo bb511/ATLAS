@@ -6,6 +6,7 @@ image_sliders:
   - ConeCutsEnu
   - MassConesWenu
   - BackgroundAnalysisEnu
+  - WenuXsect
   - ABCDenu
 use_math: true
 ---
@@ -29,7 +30,7 @@ use_math: true
 5. [Background Analysis](#5-background-analysis)<br>
 	5.1 [Estimation of Background Shape](#51-estimation-of-background-shape)<br>
 	5.2 [ABCD Method](#52-abcd-method)
-6. [Cross Section](#6-cross-sectionn)
+6. [Cross Section](#6-cross-section)
 7. [Summary of Results](#7-summary-of-results)
 
 ---
@@ -37,6 +38,7 @@ use_math: true
 ## 1. Theory
 
 
+[[back to top]](#contents)
 
 ## 2. Parameter Analysis
 
@@ -59,6 +61,8 @@ summarized in [Table 4.1](#table-41).
 
 #### __Slider 4.1__: The parameter plots for $\eta$, $p_{T}$ of the lepton, $E_{T}^{miss}$, and $\Delta \phi$ were plotted. The cuts on the parameters were made by comparison with background processes.
 
+[[back to top]](#contents)
+
 ---
 
 ## 3. Ptcone and Etcone Cuts
@@ -76,6 +80,9 @@ optimal cut as detailed in [Section 4](#4-mass-distribution).
 
 
 #### __Slider 4.2__: The parameter plots for etcones and ptcones were used to further eliminate background events from the 'Muon Data' set.
+
+[[back to top]](#contents)
+
 ---
 
 ## 4. Mass Distribution
@@ -134,6 +141,7 @@ The transverse mass distribution was plotted for a range of ptcones from $(0.5 -
 
 #### __Table 4.1__ : The selection criteria for all candidate events influencing the Electron data are summarized. 
 
+[[back to top]](#contents)
 
 ---
 
@@ -194,18 +202,34 @@ A similar procedure as that explained for $W^{\pm} \rightarrow \mu^{\pm}\nu$ dec
 
 #### __Table 4.2__ : The A, B, C and D values generated in each quadrant for the data, Monte Carlo signal and background are tabulated. 
 
+[[back to top]](#contents)
+
 ## 6. Cross Section
 
+All the analysis is done in mathematica notebooks available for download [here](downloads.md).
+
+The cross section for each of the six invariant mass distributions was calculated using the method detailed [here](index.md#cross-sections). A plot of the six cross section values is available below.
+
+{% include slider.html selector="WenuXsect" %}
+
+At the **4 GeV cone cut**, we obtain a value of **$\sigma_{W e\nu} = 10.98$ nb** (nanobarns).
+In the next sections we will discuss the uncertainty on this value, i.e. at a **4 GeV cone cut**.
 
 ## Uncertainties
 
+In this section we state the considered sources of uncertainty and their quantitative estimates.
 
 #### Statistical Uncertainty
+The statistical uncertainty of $\sigma_{Z\mu\mu}$ was determined by propagating the errors on the calculated efficiency, number of signal counts and number of background counts. An exact description of the error propagation process can be found [here](index.md#uncertainties).
 
+A final estimate of the **statistical uncertainty** on the calculated cross-section is **0.03 nb**.
 
 #### Systematic Uncertainty
+The systematic uncertainty was estimated using the plot of the five cuts and cross section calculation at equivalent intervals of $\eta$. Details of why and how this is done are available [here](index.md#uncertainties). 
 
+A final estimate of the **systematic uncertainty** on the calculated cross-section is **0.23 nb**.
 #### Luminosity Uncertainty
+Finally, the uncertainty on the luminosity was taken to be **0.02 nb**.
 
 ## Final Value
 Finally, we quote the final value for the cross section obtained in the $W\rightarrow e\mu$ process to be
@@ -213,11 +237,22 @@ Finally, we quote the final value for the cross section obtained in the $W\right
 \sigma_{We\nu} = 10.98\pm 0.03 \mathrm{(stat)}\pm 0.23 \mathrm{(syst)}\pm 0.02 \mathrm{(lumi)}
 \end{equation}
 
+## ABCD Final Value
+
+The final value of the cross section was also estimated by using the ABCD method. We quote this to be
+
+\begin{equation}
+\sigma_{We\nu} =  7.00\pm 0.01 \mathrm{(stat)}\pm 0.23 \mathrm{(syst)}\pm 0.02 \mathrm{(lumi)}
+\end{equation}
+
+[[back to top]](#contents)
 
 ## 7. Summary of Results
 
 
 The cross-section of the process $W^{\pm} \rightarrow e^{\pm}\nu$ was calculated by accounting for all the simulated background sources with the estimated QCD background from the data. Two methods were employed to attain estimates on the QCD background contribution as detailed in [Section 5](#5-background-analysis).  
-The [two cross-sections values obtained](#6-cross-section-calculation) by the two methods are consistent ~~OR not-consistent~~ with each other. 
+The [two cross-sections values obtained](#6-cross-section) by the two methods are consistent ~~OR not-consistent~~ with each other. 
+
+[[back to top]](#contents)
 
 ---
