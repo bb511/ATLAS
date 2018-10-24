@@ -170,15 +170,15 @@
       alt: Shows QCD background estimate
     - src: /assets/figures/Wboson/BkgMunu/0_5Gev.jpg
       alt: 0.5 GeV cut
-    - src: /assets/figures/Wboson/BkgMunu/1Gev.jpg
+    - src: /assets/figures/Wboson/BkgMunu/1GeV.jpg
       alt: 1 GeV cut
-    - src: /assets/figures/Wboson/BkgMunu/1_5Gev.jpg
+    - src: /assets/figures/Wboson/BkgMunu/1_5GeV.jpg
       alt: 1.5 GeV cut
-    - src: /assets/figures/Wboson/BkgMunu/2Gev.jpg
+    - src: /assets/figures/Wboson/BkgMunu/2GeV.jpg
       alt: 2 GeV cut
-    - src: /assets/figures/Wboson/BkgMunu/2_5Gev.jpg
+    - src: /assets/figures/Wboson/BkgMunu/2_5GeV.jpg
       alt: 2.5 GeV cut
-    - src: /assets/figures/Wboson/BkgMunu/3Gev.jpg
+    - src: /assets/figures/Wboson/BkgMunu/3GeV.jpg
       alt: 3 GeV cut
 
   settings:
