@@ -20,7 +20,7 @@ use_math: true
 
 <center> <h1> $W^{\pm} \rightarrow \mu^{\pm}\nu$ </h1> </center>
 
-
+---
 ## Contents:
 1. [Theory](#1-theory)
 2. [Parameter Analysis](#2-parameter-analysis)
@@ -201,8 +201,24 @@ The number of QCD events in the data can then be estimated using the following f
 
 ---
 
-## 6. Cross Section calculation
+## 6. Cross Section
 
+
+## Uncertainties
+
+
+#### Statistical Uncertainty
+
+
+#### Systematic Uncertainty
+
+#### Luminosity Uncertainty
+
+## Final Value
+Finally, we quote the final value for the cross section obtained in the $W\rightarrow\mu\nu$ process to be
+\begin{equation}
+\sigma_{W\mu\nu} = 12.35\pm 0.03 \mathrm{(stat)}\pm 0.47 \mathrm{(syst)}\pm 0.02 \mathrm{(lumi)}
+\end{equation}
 ---
 
 ## 7. Summary of Results

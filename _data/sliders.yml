@@ -131,7 +131,7 @@
   images:
     - src: /assets/figures/Wboson/etcones_2.jpg
       alt: Etcones
-    - src: /assets/figures/Wboson/ptcones_2.jpg
+    - src: /assets/figures/Wboson/ptCones_2.jpg
       alt: Ptcones
   settings:
     height: 500
@@ -144,17 +144,17 @@
   bullets: true
   captions: true
   images:
-    - src: /assets/figures/Wboson/MassMunu/053Gev.png
+    - src: /assets/figures/Wboson/MassMunu/053GeV.png
       alt: 0.5 GeV cut
-    - src: /assets/figures/Wboson/MassMunu/1Gev.png
+    - src: /assets/figures/Wboson/MassMunu/1GeV.png
       alt: 1 GeV cut
-    - src: /assets/figures/Wboson/MassMunu/1_5Gev.png
+    - src: /assets/figures/Wboson/MassMunu/1_5GeV.png
       alt: 1.5 GeV cut
-    - src: /assets/figures/Wboson/MassMunu/2Gev.png
+    - src: /assets/figures/Wboson/MassMunu/2GeV.png
       alt: 2 GeV cut
-    - src: /assets/figures/Wboson/MassMunu/2_5Gev.png
+    - src: /assets/figures/Wboson/MassMunu/2_5GeV.png
       alt: 2.5 GeV cut
-    - src: /assets/figures/Wboson/MassMunu/3Gev.png
+    - src: /assets/figures/Wboson/MassMunu/3GeV.png
       alt: 3 GeV cut
   settings:
     height: 650
@@ -168,7 +168,7 @@
   images:
     - src: /assets/figures/Wboson/BkgMunu/0.jpg
       alt: Shows QCD background estimate
-    - src: /assets/figures/Wboson/BkgMunu/0_5Gev.jpg
+    - src: /assets/figures/Wboson/BkgMunu/0_5GeV.jpg
       alt: 0.5 GeV cut
     - src: /assets/figures/Wboson/BkgMunu/1GeV.jpg
       alt: 1 GeV cut
@@ -286,6 +286,70 @@
     - src: /assets/figures/Zmumu/xsections/zumau.png
       alt: Zoomed out plot
     - src: /assets/figures/Zmumu/xsections/zumin.png
+      alt: Zoomed in plot
+  settings:
+    height: 430
+    effect: "'fade'"
+    animationSpeed: 100
+
+# ------------------- Zee Sliders -------------------
+
+- selector: ZeeParameters
+  bullets: true
+  captions: false
+  images:
+    - src: /assets/figures/Zee/parameters/energy.jpg
+      alt: Energy
+    - src: /assets/figures/Zee/parameters/eta.jpg
+      alt: Pseudo-rapidity
+    - src: /assets/figures/Zee/parameters/phi.jpg
+      alt: Azimuthal Angle
+    - src: /assets/figures/Zee/parameters/pt.jpg
+      alt: Transverse Momentum
+  settings:
+    height: 550
+    effect: "'fade'"
+    animationSpeed: 100
+
+- selector: ZeeCones
+  bullets: true
+  captions: false
+  images:
+    - src: /assets/figures/Zee/cones/ptcones.jpg
+      alt: Ptcones
+    - src: /assets/figures/Zee/cones/etcones.jpg
+      alt: Etcones
+  settings:
+    height: 550
+    effect: "'fade'"
+    animationSpeed: 100
+
+- selector: ZeeMass
+  bullets: true
+  captions: false
+  images:
+    - src: /assets/figures/Zee/mass/3GeV.png
+      alt: 4Gev
+    - src: /assets/figures/Zee/mass/4GeV.png
+      alt: 5GeV
+    - src: /assets/figures/Zee/mass/5GeV.png
+      alt: 6GeV
+    - src: /assets/figures/Zee/mass/6GeV.png
+      alt: 7GeV
+    - src: /assets/figures/Zee/mass/7GeV.png
+      alt: 8GeV
+  settings:
+    height: 600
+    effect: "'fade'"
+    animationSpeed: 100
+
+- selector: ZeeXsect
+  bullets: true
+  captions: true
+  images:
+    - src: /assets/figures/Zee/xsections/zumau.png
+      alt: Zoomed out plot
+    - src: /assets/figures/Zee/xsections/zumin.png
       alt: Zoomed in plot
   settings:
     height: 430
