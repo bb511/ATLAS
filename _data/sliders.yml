@@ -85,6 +85,24 @@
     animationSpeed: 100
     width: 400
 
+ 
+- selector: ABCDenu
+  bullets: true
+  captions: true
+  images:
+    - src: /assets/figures/Wboson/ABCD/Wenu1.png
+      alt: Electron Data
+    - src: /assets/figures/Wboson/ABCD/Wenu2.png
+      alt: Background Monte Carlo
+    - src: /assets/figures/Wboson/ABCD/Wenu3.png
+      alt: Signal Monte Carlo
+  settings:
+    height: "'auto'"
+    effect: "'fade'"
+    animationSpeed: 100
+    width: 500
+
+
 # -----------------------------------------------------------------------------------------------
 #                   W -> munu
 #-----------------------------------------------------------------------------------------------
@@ -168,6 +186,26 @@
     effect: "'fade'"
     animationSpeed: 100
     width: 400
+
+
+ 
+- selector: ABCDmunu
+  bullets: true
+  captions: true
+  images:
+    - src: /assets/figures/Wboson/ABCD/Wmunu1.png
+      alt: Electron Data
+    - src: /assets/figures/Wboson/ABCD/Wmunu2.png
+      alt: Background Monte Carlo
+    - src: /assets/figures/Wboson/ABCD/Wmunu3.png
+      alt: Signal Monte Carlo
+  settings:
+    height: "'auto'"
+    effect: "'fade'"
+    animationSpeed: 100
+    width: 400
+
+
 
 # ------------------- Zmumu Sliders -------------------
 

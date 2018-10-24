@@ -6,6 +6,7 @@ image_sliders:
   - ConeCutsEnu
   - MassConesWenu
   - BackgroundAnalysisEnu
+  - ABCDenu
 use_math: true
 ---
 <style>
@@ -104,6 +105,9 @@ use_math: true
 {% include slider.html selector="BackgroundAnalysisEnu" %}
 
 ### 5.2 ABCD Method
+
+{% include slider.html selector="ABCDenu" %}
+
 
 ## 6. Cross Section calculation
 
