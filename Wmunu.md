@@ -68,12 +68,15 @@ The ptcones and etcones were useful tools to distinguish between leptons and $\n
 
 ## 4. Mass distribution
 
-The etcones and ptcones cuts influenced the mass distribution calculated for the invarient mass of the lepton pair. It was crucial to make note of the regions in the mass distribution, where the influence due to the cones was maximum. Accordingly, the mass distribution was sliced between (55 -120) GeV. Fining the cuts further resulted in loss of signal data and a balance was decided by exploring the influence of the cone cuts, as shown in [Slider 3.3](#slider-33). The ptcones and etcones were varied from (0.5 - 3) GeV. It was observed that for 0.5-1.5 GeV,  better agreement of the data was observed with the signal (majorly at the tails of the distribution). However, the number of counts was reduced by a factor ~ $2\times 10^4$ relative to the cone cut at 3 GeV. Thus a balance was evalueted at 2 GeV showing consistency with the cone cuts decided from the plots shown in [Slider 3.2](#slider-32).
+The etcones and ptcones cuts influenced the mass distribution calculated for the invarient mass of the lepton pair. It was crucial to make note of the regions in the mass distribution, where the influence due to the cones was maximum. Accordingly, the mass distribution was sliced between (55 -120) GeV. Fining the cuts further resulted in loss of signal data and a balance was decided by exploring the influence of the cone cuts, as shown in [Slider 3.3](#slider-33). The ptcones and etcones were varied from (0.5 - 3) GeV. It was observed that for 0.5-1.5 GeV,  better agreement of the data was observed with the signal (majorly at the tails of the distribution). However, the number of counts was reduced by a factor ~ $2\times 10^4$ relative to the cone cut at 3 GeV. Thus a balance was evaluated at 2 GeV showing consistency with the cone cuts decided from the plots shown in [Slider 3.2](#slider-32).
 
 
 <a name="slider-33"></a>
 
 {% include slider.html selector="MassConesWmunu" %}
+
+
+#### __Slider 3.3__: The invariant transverse mass distribution is plotted for the $W^{\pm} \rightarrow \mu^{\pm}\nu$ for a range of ptcone and etcone cuts. These cuts influence the shape of the signal and the data. Larger values of cones accommodates for more background data from showers and QCD processes. 
 
 Thus, this concludes to the section on analysis of parameters to select candidate events. All the cuts mentioned in [Section 2](#2-parameter-analysis) to [4](#4-mass-distribution) have been summarized in [Table  3.1](table-31). However, the analysis is yet not complete as we can observe some discrepency between the Monte carlo signal and data. One of the major contributions to background is that from QCD, as detailed in [Section 1](#1-theory). Two methods for background contribution from QCD have been estimated in [Section 5](#5-background-analysis).
 
@@ -125,19 +128,19 @@ Thus, this concludes to the section on analysis of parameters to select candidat
 ### 5.1 Estimation of Background Shape
 
 
-The data was observed for ptcones and etcones larger than 2 GeV. The distribution obtained corresponds to events which have passed all the other selection cuts except the cone cuts. The shape of this distribution, as shown in [Slider 3.4](#slider-34), gives a rough estimate of the shape of the QCD background contribution. In order to further refine the shape, the signal events present in the background were subtracted. The QCD estimate shape obtained was normalized with the Monte Carlo contributions (both signal and background). The difference between the data and net shape obtained was minimized. The normalization constants were noted and chi-squares evaluated. It was observed that the data overshoots the signal and this discrepency has been accouted for as a systematic uncertainty which is further discuessed in the [Summary](summary.md#uncertainty).
+The data was observed for ptcones and etcones larger than 2 GeV. The distribution obtained corresponds to events which have passed all the other selection cuts except the cone cuts. The shape of this distribution, as shown in [Slider 3.4](#slider-34), gives a rough estimate of the shape of the QCD background contribution for a range of cuts set on the cones. In order to further refine the shape, the signal events present in the background were subtracted. The QCD shape obtained was normalized with the Monte Carlo contributions (both signal and background). The difference between the data and net shape obtained was minimized in order to attain the appropriate normalization constants. The normalization constants were noted, briefed in the titles in [Slider 3.4](#slider-34), and chi-squares were evaluated. It was observed that the data overshoots the signal and this discrepency has been accouted for as a systematic uncertainty which is further discuessed in the [Summary](summary.md#uncertainty).
 
 
 <a name="slider-34"></a>
 
 {% include slider.html selector="BackgroundAnalysisMunu" %}
 
-#### __Slider 3.4__: The plots shows the results obtained by accounting for the background contribution due to QCD. The simulated process were renormalized with the QCD processes to obtain better comparison with measured data.
+#### __Slider 3.4__: The plots shows the results obtained by accounting for the background contribution due to QCD. The simulated processes were renormalized with the QCD processes to obtain better comparison with measured data.
 
 
 ### 5.2 ABCD Method
 
-The data driven ABCD method was also attempted to estimate the nummber of QCD events present in the measured data. This density plots generated by this method have been shown in [Slider 3.5](#slider-35). For uncorrelated signals, the B quadrant must consist of signal alone while the other 3 quadrants must be dominated with background. [Table 3.2](#table-32) shows the number of counts recorded in each quadrant. 
+The data driven ABCD method was also attempted to estimate the nummber of QCD events present in the measured data. This method assumes that the $p_{T}^{cones}$, and $p_{T}$ variables are uncorrelated with $m_{T}$ of the $W^{\pm}$ decay. The density plots generated by this method is shown in [Slider 3.5](#slider-35). For uncorrelated signals, the B quadrant must consist of signal counts while the other 3 quadrants must be dominated with background. [Table 3.2](#table-32) shows the number of counts recorded in each quadrant. 
 
 
 <a name="table-32"></a>
@@ -181,7 +184,7 @@ The data driven ABCD method was also attempted to estimate the nummber of QCD ev
 
 #### __Table 3.2__ : The A, B, C and D values generated in each quadrant for the data, Monte Carlo signal and background are tabulated. 
 
-Improvements could be made to this method by ensuring that the boundaries of the quandrants are not touching. However, the systematic uncertainty quoted in [Table 3.2](#table-32) arise by calculating the variance in the number of counts in each quadrant achieved while changing the isolation fraction boundary. The isolation fraction is defined as the ratio of $p_{T}^{cones}$ to $p_{T}$. The choice of this boundary was made to be 0.07, such that negligible signal is found beyond the boundary. This can be confirmed from the values obtained for Monte Carlo signal in [Table 3.2](#table-32). 
+Improvements could be made to this method by ensuring that the boundaries of the quandrants are not touching. However, the systematic uncertainty quoted in [Table 3.2](#table-32) arise by calculating the variance in the number of counts in each quadrant achieved while changing the isolation fraction boundary. <a name="isolation-fraction"></a>The [isolation fraction](#isolation-fraction) is defined as the ratio of $p_{T}^{cones}$ to $p_{T}$. The choice of this boundary was made to be 0.07, such that negligible signal is found beyond the boundary. This can be confirmed from the values obtained for Monte Carlo signal in [Table 3.2](#table-32). 
 
 
 <a name="slider-35"></a>
@@ -203,4 +206,9 @@ The number of QCD events in the data can then be estimated using the following f
 ---
 
 ## 7. Summary of Results
+
+
+The cross-section of the process $W^{\pm} \rightarrow \mu^{\pm}\nu$ was calculated by accounting for all the simulated background sources with the estimated QCD background from the data. Two methods were employed to attain estimates on the QCD background contribution as detailed in [Section 5](#5-background-analysis).  
+The [two cross-sections values obtained](#6-cross-section-calculation) by the two methods are consistent ~~OR not-consistent~~ with each other. The analysis gives a well-versed overview of background estimation and cross-section calculation in particle physics collisions. The experiment was followed by the [[$W^{\pm} \rightarrow e^{\pm}\nu$]](Wenu.md#Contents) analysis.
+
 ---
