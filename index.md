@@ -19,7 +19,7 @@ The detection elements are arrayed such that one can distinguish a pattern of en
 
 &nbsp;
 
-<img src="/assets/images/ATLASdetector.png" width="80%">
+<img src="{{ "/assets/images/ATLASdetector.png"  | prepend: site.baseurl }}" width="80%">
 
 #### Figure 1: The ATLAS detector schematic. All the components that contribute to the detection of particles are annotated in the picture.
 
