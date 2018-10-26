@@ -5,7 +5,7 @@ use_math: true
 ---
 
 ## Mathematica Notebooks
-These are the mathematica nooteboks which contain all the data analysis for this experiment. Click on them to download a zip. These are grouped per boson.
+These are the mathematica nooteboks which contain all the data analysis for this experiment. Click on them to download a zip. These are grouped per boson. You need the data in order to run the mathematica notebooks. It can be downloaded from this <a href="{{ "/materials/ATLAS.zip"  | prepend: site.baseurl }}">link</a>.
 
 1. <a href="{{ "/materials/Zboson.zip"  | prepend: site.baseurl }}">Download Z Boson</a>
 2. <a href="{{ "/materials/Wboson.zip"  | prepend: site.baseurl }}">Download W Boson</a>
